@@ -10,8 +10,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "date-fns": "^4.1.0",
     "jspdf": "^2.5.2",
     "jspdf-autotable": "^3.8.4",
+    "lumina-ui": "^1.0.38",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },

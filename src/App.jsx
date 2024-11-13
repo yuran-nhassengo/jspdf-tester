@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, DownloadIcon } from 'lumina-ui';
-import {PdfGenerator} from '../src/components/generator'
+import PdfGenerator from '../src/components/generator'
 
 const App = () => {
 

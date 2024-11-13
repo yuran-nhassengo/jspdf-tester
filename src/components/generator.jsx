@@ -48,8 +48,8 @@ const PdfGenerator = () => {
     })
 
     // Add images and text to the PDF
-    const callImage = "/Calling.png";
-    const imageUrl = "/aalam.png";
+    const callImage = "/iabil-logo.png";
+    const imageUrl = "/iabil-logo.png";
     pdf.addImage(imageUrl, 'JPEG', 10, 5, 40, 12);
     pdf.setFontSize(10);
     pdf.setFont('custom', 'bold');
@@ -184,4 +184,4 @@ const PdfGenerator = () => {
 
 }
 
-export default PdfGenerator
+export default PdfGenerator;
